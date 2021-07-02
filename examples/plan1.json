@@ -1,0 +1,443 @@
+{
+    "requestParameters": {
+        "mode": "TRANSIT",
+        "date": "2021-07-01",
+        "fromPlace": "2:90702",
+        "toPlace": "1:19026",
+        "time": "5:00PM"
+    },
+    "plan": {
+        "date": 1625173200000,
+        "from": {
+            "name": "Levittown-Tullytown",
+            "stopId": "2:90702",
+            "lon": -74.8169444,
+            "lat": 40.1402778,
+            "zoneId": "5",
+            "stopIndex": 1,
+            "vertexType": "TRANSIT"
+        },
+        "to": {
+            "name": "Market St & 34th St",
+            "stopId": "1:19026",
+            "lon": -75.191314,
+            "lat": 39.955901,
+            "zoneId": "1",
+            "stopIndex": 1,
+            "vertexType": "TRANSIT"
+        },
+        "itineraries": [
+            {
+                "duration": 3420,
+                "startTime": 1625173620000,
+                "endTime": 1625177040000,
+                "walkTime": 126,
+                "transitTime": 2640,
+                "waitingTime": 654,
+                "walkDistance": 168.0,
+                "walkLimitExceeded": false,
+                "elevationLost": 0.0,
+                "elevationGained": 0.0,
+                "transfers": 1,
+                "fare": {
+                    "fare": {
+                        "regular": {
+                            "currency": {
+                                "currency": "USD",
+                                "defaultFractionDigits": 2,
+                                "currencyCode": "USD",
+                                "symbol": "$"
+                            },
+                            "cents": -1
+                        }
+                    },
+                    "details": {
+                        "regular": [
+                            {
+                                "fareId": "1:1",
+                                "price": {
+                                    "currency": {
+                                        "currency": "USD",
+                                        "defaultFractionDigits": 2,
+                                        "currencyCode": "USD",
+                                        "symbol": "$"
+                                    },
+                                    "cents": 250
+                                },
+                                "routes": [
+                                    "1:LUCYGR"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "legs": [
+                    {
+                        "startTime": 1625173620000,
+                        "endTime": 1625176020000,
+                        "departureDelay": 0,
+                        "arrivalDelay": 0,
+                        "realTime": false,
+                        "distance": 41641.46820308776,
+                        "pathway": false,
+                        "mode": "RAIL",
+                        "transitLeg": true,
+                        "route": "Trenton Line",
+                        "agencyName": "SEPTA",
+                        "agencyUrl": "http://www.septa.org",
+                        "agencyTimeZoneOffset": 0,
+                        "routeColor": "45637A",
+                        "routeId": "2:TRE",
+                        "routeTextColor": "FFFFFF",
+                        "tripShortName": "722",
+                        "tripBlockId": "722",
+                        "headsign": "Center City Philadelphia",
+                        "agencyId": "2:SEPTA",
+                        "tripId": "2:TRE_722_V51_M",
+                        "serviceDate": "2021-07-01",
+                        "from": {
+                            "name": "Levittown-Tullytown",
+                            "stopId": "2:90702",
+                            "lon": -74.8169444,
+                            "lat": 40.1402778,
+                            "departure": 1625173620000,
+                            "zoneId": "5",
+                            "stopIndex": 1,
+                            "vertexType": "TRANSIT"
+                        },
+                        "to": {
+                            "name": "30th Street Station",
+                            "stopId": "2:90004",
+                            "lon": -75.1816667,
+                            "lat": 39.9566667,
+                            "arrival": 1625176020000,
+                            "departure": 1625176020000,
+                            "zoneId": "C",
+                            "stopIndex": 11,
+                            "vertexType": "TRANSIT"
+                        },
+                        "intermediateStops": [],
+                        "legGeometry": {
+                            "points": "q{~sFttsgMTX??~@fA\\`@f@l@bAjAbAjAh@n@p@x@z@`ArA|A\\`@hBtBJLrB`CDFFFhAtAZ\\pB`C@@b@h@j@n@b@f@@BpB~BTV|AhBBB\\b@PRz@`AZ^JL^d@b@f@v@z@r@z@pA|AXZ`AhAl@r@bBpBB@HLJJ`BnBJJ`BnBd@j@fAnAFH`BlBf@j@TXp@v@|@dAf@j@|AhBFHJL~@fAVXz@`Aj@n@JJbAdAXXn@n@l@j@JJp@l@TRLLXT`Az@j@b@XTXT`@ZHFPL??bAr@f@^VNVRt@h@PJVRjBpAn@d@~@p@|AfADBj@b@~@p@d@\\jAv@nA|@^XdAr@XRPNDBf@\\|@p@@?d@Z`@Zb@Zf@\\hAv@BBTNFDb@\\jAx@l@`@|AfAt@j@dAt@@?VPTPb@ZVPd@\\n@d@TPRNd@^`@\\RPPL`@^p@l@HHl@h@l@l@PPd@d@`@d@b@d@@@VXb@f@h@n@DFh@n@VZ\\d@LNb@l@n@|@LP~@vAPVr@jAd@x@@@Vb@NVNX^n@DHP\\FLTb@NZLVLV\\p@^z@DHXn@\\x@Xn@Xp@Xp@Vn@DJrA~CRf@d@dAZt@h@pA??h@lATj@@@Zv@\\x@Xr@N\\b@bAz@rBJTr@bB?@Tj@Vh@h@rAFNFNh@pATl@JX`@dABHRh@J\\Zx@Xx@@Df@xANf@BFRp@Nd@Pj@BHBHTr@DRZdAFVb@~ANn@^tAXpAj@`CLh@Ll@VjAJh@@HZ|ARbAJf@PdAN~@??ZjBN`AJn@R|AF^Fb@J~@PlABXTrBD\\NxANvA@NDf@Hv@BXFx@HdAFl@HnA?@NxBHhAVtD@NZbE?FJzAL`B?@F|@NpB@RX~D?BRjCDr@?DBZVfDHtANnBBd@NpBDj@Dh@Bb@NvBPbCF~@RlCFv@J~AJ|ABRNvBFp@?DZ|D?HZzDH`AB^HbA@PZtDDn@RfCXtD@PVbD@DJxAJxAVdDBZZ~D@FXxDH`ALhBBTZ~DDh@TvCL`BJxA?DV~CB^Fp@P~B@NL|A@FJxA@L??JrA?@Fv@Db@ZzDB\\L`BF|@XpD@JXzDFn@RhCNtBHdADh@Fp@JrAL~AFn@@RX`D@RNpAHv@?BHn@Jz@Lr@BVN~@Jj@BPJd@Jd@F^Jd@HXR|@Pv@J\\Pn@Pn@DLNf@Vv@Nb@@DN`@Xt@Tl@@@Rf@Rd@N^LVN\\Td@f@`AZn@LVJRT`@BFn@lAVd@@@Zl@t@tAz@`BXh@xAnCFJtAhCXh@|@bBBD|AtCR^hAvBz@|A`@t@z@`BTb@JP`@x@t@tAz@`BV`@JR|@dBFJR^f@|@Vf@HN??\\p@HLJTd@x@JRnA`Cj@fAl@hABB`@t@\\n@\\n@hAxBT^NZ`@v@f@|@bAjBJTLRzArCT`@`AhBd@|@R^T`@P\\bAlBp@nAj@fAnA~BHNDH|AvCJRHLn@jAXh@HNFJHNFLHNHNJNFLHNFNHJHNFNJPHNFLJPJNFNDHDFHPHLHPJPHNJRFJHL?BJPHNHNHNHNHNHNHPJNTf@JRJP?@JRLTLTJVLT??LTJTLVJRJTLVDHBFJTLVJTLVFNBDHTLTHTLTHR?@HPJVLTJVDJBHPd@HPDJJT?@FNDHBHHPHR@BN^HTHPFN?B??@?FPBHDHHRHRRj@DJFP?@HRFPFPDLJVFPHRDJ@DHRFRHTFNFPHTHRFR@?JZHTHPFPHTHTFPHP@DDLHRFRHPFTHRHRHRDL@@@DHRHTFPFPHTHPHTHR?@HRHRFRHRHTFPFRHRDJBFHRHTNf@FNHRDLFRFL??FPFPHRFRHTDJDLFPHPFP??FNDNHTDJFNFPDLFPHPFP?@FLFRFNFPFNHRFPDNHRDJ@DHRFNFPFNFRTh@FRDJ@DHPFPFRHRFNHVFPHTDHBHFPFPHRHTFPHPFRHT@@FPHTHRHTHRFPHRHT@DDLHTFPHPHRFRHRPf@J\\HPFPFTHPFPHR?@JXN`@DLFPFPHPFPHRFRBHDHFRFPHPFRHRFRHP@FHRL\\JXt@tBPb@|@fCN^Tp@`@fA\\~@j@~A?@FNd@rAZx@Rh@l@bBFNf@tA^dAL\\l@bBHTDH`AnCVp@h@xA@DBFt@rBNb@bApCBHN^f@nAFP@BHRLZP^HRJVBDDJJPJRN\\LVLT@BHNLRLRR\\HLLVFHT\\TZRZPRBDNRVZZ^RVJJTXZXb@d@@Bx@v@HF^\\HHVTDD@@l@h@ZXHHd@`@x@r@DDVT\\Zj@d@RRHFB@d@b@PN??v@r@LLz@t@HH`@`@FDRRfAdABBn@r@PPX^^b@HHNR^h@\\d@t@jAFHx@xAJTj@dA\\t@Th@l@xAJZ^`APf@@Bb@nAVz@??Rl@h@fB@?X|@Nh@Tp@Ph@l@dB@Df@rARf@JXDHL\\NZDLLXP^@BJTTh@Xj@P`@@@N\\P\\Zn@PZHPR^JTFJBDJRj@fAFJNXp@tANVh@bAj@jADFVf@Vf@`@x@R`@r@rAPZh@fA`@v@JTtAjCFLvAnCDJbApB`@v@HNfAvBTd@d@z@b@x@`@z@x@~A^r@z@`BbAnBNZFJl@nANXTb@FJr@xAP`@\\t@l@rA@Bd@fAJVTl@L\\j@|AJTXz@L\\L^HVHTPj@Nf@DLBJDLPh@V|@Nh@DJ@DPn@BFHXNj@BFNj@\\jANf@Lb@J^L^Tz@r@dCFTFRl@rBHX^nAVx@Rn@h@fBDJZ|@\\dALZFR\\|@\\~@BDVn@\\v@P`@Vh@p@xADHbApBDFDLNVb@v@HPHLDJBDFNJNJRHPJRJNHPFL@BJPJPHNFNHNHN@@HPJR@@@BNZBB??FLJRHLJRBFLT@@HPJRHLBDHPPZJR@BNXBFj@dAr@pAHPrAbCBHpA~BP^x@zAj@dAP^LRvAnCBDr@pA\\r@PZR^l@fABHNTHPz@`B`@r@R^b@x@nA`CHPFJvAnCBBv@zAb@x@HLHNdArBDFx@~AXh@DHPXXj@Vf@T`@d@|@r@tAx@zA`@v@JPt@vAP\\DF`@v@??j@jADFFL^t@n@rAFLR`@LXFLJRLZP\\N\\j@rAr@~AXr@`A|BHR`AbCFPDJDHl@|APb@jAvC@D??rAfDDHlAzCHRn@~AXr@~@`CRd@@BdAjCJTlA|CBBx@rBRf@`AfCHPlA|C@@nA`D@Bt@jBN^HRTj@Nb@Zx@HT`@hAf@zA@?DPHVZ~@@BRp@BFFTZdARx@Pj@^xAFRRz@`@`BDPDPXrALh@Jh@BJ\\hBDP^tBDXP`ATvA@D@DVfBRrAX`BDVPhAHf@b@xCN`A\\xBRlAXhBT~ATvA@Dh@nDJp@PdABRJj@??BP??F\\BPDZNz@ZtBBNNdAH`@ZtBJh@Lz@\\zBRpADVNz@Lz@Lx@Lx@Jn@d@tCLz@@HN~@D\\ZlBN~@XnBFZF`@PhAV`BXhBPlA^~BN`A`@fCLx@L|@N|@N~@RrARrA@BXpBHb@DPNx@J^DVNp@J^@@J^HZPh@Pl@BDLb@DJVp@DJDHL\\P^P`@@@P^LVR^@BVd@R^JNLRLTZb@JNV^TXRVVZ@?\\`@X^VVDDFHt@x@@@HHLNHJt@x@FH~@dAHJZ\\\\`@DFDFHLPVLRDDFJHNJRJPBFHNDLRd@BHTn@J\\DNFTH\\DVBLJj@D^@FBJ@PBTBR@P@F?JBR@T?T@X?D@Z?t@AL?d@Cr@?HA`@C\\Cb@G~@AREd@GdAEd@A^OxBOpBEt@CXIfAIrAK|AOtB?BGz@ALOvBMdB?F?BAF??IpAQdCEp@U`D?JKrAALGx@S|C?JMhBG|@GbAOjBK~AInA?BALWjDCj@SpCInAMlBOtBIfA?DO`CKvA?@W|DARWnDC\\OxBC^W`EY`E?D[rEEj@IjAKxAGdAG|@IdAOdCEz@CXCf@AXE|@Cf@I~AGhB?LIlBClACb@E`BCbA?JAd@Az@A`@?NCxAAz@Av@?LA~@?RAtC?h@?`B?F@jB?H?t@@n@@H@ZBj@Bd@@R@LB^BXBXBTBR@JF^D\\DZDRDR?BDNF^H^H\\HZ@DFRJ`@@B@FHVV|@DPl@xBXhAPn@Pp@^rABFh@pBRv@j@tBHVLd@@Bf@jBPr@^rAZjAJ`@Nf@b@bBFTJZFV\\nAPn@Pn@DN\\rA^vAf@fBZlAj@pBV`ARr@h@rBXbAFTBJPn@J\\XhA@@d@dB^tAb@`BNf@FT^tAZlA\\jAFTPp@BHJ^Tx@@FLd@^rAPn@ZjA@Db@~A@DXbAFTV~@Pt@??d@bB`@vATz@Ld@DRBH@@@FBF?@@FHTFVLb@DRHXDL`@vA@FLd@`@zARp@@FLb@Rt@^vAHXV~@Nj@^pADP@DLf@J\\j@vBJ`@JZXbA@Bh@pBDLFN@FHTBHBDDL@BNb@FJHV`A`CHRhArCJT~@|BFRLV`AbCDLpAbDDJ\\x@p@bBLXL^x@lBVp@f@lAp@bBDJ`@`A`@`AZt@Vn@~@`CRf@`A~BDJZv@t@hBFNlAxCJVhApCP`@l@zALZb@fAf@jARh@FLJRTh@BDLVHPDF`@v@b@r@FJPZBFPXNXV`@PXVd@nAvBPXVd@LRLT^n@PXZh@v@tAp@hAXf@@@LTT`@LRFJT^?@Zf@r@lAp@jA\\h@R^FLl@`Ah@~@^p@pAxB\\j@j@bAR\\Xd@JPnAvBT`@^n@f@z@DDVb@DJh@|@BDDFd@z@@@t@vA^p@DHd@~@^l@DHVb@n@fA@@\\l@@@BFDFb@t@FJBDT^d@x@Vd@`@n@Tb@T^Zh@~@`BZd@FL@@t@pAd@x@Zh@JRl@bADFFLJPJNDFX`@@BFHv@jAv@lATZj@p@LNJJNPJHTTZTRNBBd@Vx@^l@XPJD@NHVJLF@?NDD@HBPBHBH@J?L@H?J?L?NAJALANCLEPEPGRIRIZKPKTKVONIRONKNMJIJKHIJKNQNSJQHOLSLWL]HWL_@La@FWFUH]Jg@Jg@F[BMFY?CBIBONo@H_@BQHYBSH_@FUF[DWFYJe@@IFUHc@P{@Ja@F[BO@CDUDQ@CFWJg@HUDOTw@Rm@Lk@@G@CDSV_B@GBOLe@H[FUJW?AFOJ[JUJ]HQBG@AVk@Tg@N[Rc@NUTa@V_@X[DEFILMNMHGFEXUHGFG\\ULK@APKd@]XQNGTI`@OFCh@O@?f@OLC\\Gj@Ef@CBAj@Ab@CxBE^AT?B?LAT?TA^ALANA\\E`@GB?`@GD?VE@?h@ID?TEXAV?`@AnAAF?J?XAV?ZAP?@?N?JAPAFALANENEPGPIFEB?HGNMFEBCFENONQTYFK@AFKFOJQL[FQHW@CDMBOBI?A??@E?C@C?C@E?ADSDYF{@?A@M@E?A@Q@M@K?C?E@C?E@Q???A@E?E@K?C?A@QJ_BHiABS?IBY?IBY@G",
+                            "length": 2016
+                        },
+                        "steps": [],
+                        "routeShortName": "Trenton Line",
+                        "routeLongName": "Trenton Line",
+                        "duration": 2400.0
+                    },
+                    {
+                        "startTime": 1625176020000,
+                        "endTime": 1625176146000,
+                        "departureDelay": 0,
+                        "arrivalDelay": 0,
+                        "realTime": false,
+                        "distance": 168.0,
+                        "pathway": false,
+                        "mode": "WALK",
+                        "transitLeg": false,
+                        "route": "",
+                        "agencyTimeZoneOffset": 0,
+                        "from": {
+                            "name": "30th Street Station",
+                            "stopId": "2:90004",
+                            "lon": -75.1816667,
+                            "lat": 39.9566667,
+                            "arrival": 1625176020000,
+                            "departure": 1625176020000,
+                            "zoneId": "C",
+                            "stopIndex": 11,
+                            "vertexType": "TRANSIT"
+                        },
+                        "to": {
+                            "name": "JFK Blvd & 30th St",
+                            "stopId": "1:28325",
+                            "lon": -75.183284,
+                            "lat": 39.955796,
+                            "arrival": 1625176146000,
+                            "departure": 1625176800000,
+                            "zoneId": "1",
+                            "stopIndex": 0,
+                            "vertexType": "TRANSIT"
+                        },
+                        "legGeometry": {
+                            "points": "",
+                            "length": 0
+                        },
+                        "steps": [],
+                        "duration": 126.0
+                    },
+                    {
+                        "startTime": 1625176800000,
+                        "endTime": 1625177040000,
+                        "departureDelay": 0,
+                        "arrivalDelay": 0,
+                        "realTime": false,
+                        "distance": 796.2469906426053,
+                        "pathway": false,
+                        "mode": "BUS",
+                        "transitLeg": true,
+                        "route": "Green Loop through University City",
+                        "agencyName": "SEPTA",
+                        "agencyUrl": "http://www.septa.org",
+                        "agencyTimeZoneOffset": 0,
+                        "routeId": "1:LUCYGR",
+                        "tripBlockId": "8505",
+                        "headsign": "Green Loop",
+                        "agencyId": "1:1",
+                        "tripId": "1:617789",
+                        "serviceDate": "2021-07-01",
+                        "from": {
+                            "name": "JFK Blvd & 30th St",
+                            "stopId": "1:28325",
+                            "lon": -75.183284,
+                            "lat": 39.955796,
+                            "arrival": 1625176146000,
+                            "departure": 1625176800000,
+                            "zoneId": "1",
+                            "stopIndex": 0,
+                            "vertexType": "TRANSIT"
+                        },
+                        "to": {
+                            "name": "Market St & 34th St",
+                            "stopId": "1:19026",
+                            "lon": -75.191314,
+                            "lat": 39.955901,
+                            "arrival": 1625177040000,
+                            "zoneId": "1",
+                            "stopIndex": 1,
+                            "vertexType": "TRANSIT"
+                        },
+                        "intermediateStops": [],
+                        "legGeometry": {
+                            "points": "wzzrF`f{iMBCBCFCDAD?F?D?z@J\\FXBFDRNB@AFEn@SlDEj@Er@ALAD?FEh@Ep@QrCEn@Ex@Eh@AZGz@C\\AXKxAMrBCZMdBOjCE`@IvAMhB",
+                            "length": 40
+                        },
+                        "steps": [],
+                        "routeShortName": "LUCYGR",
+                        "routeLongName": "Green Loop through University City",
+                        "duration": 240.0
+                    }
+                ],
+                "tooSloped": false
+            },
+            {
+                "duration": 3600,
+                "startTime": 1625177040000,
+                "endTime": 1625180640000,
+                "walkTime": 126,
+                "transitTime": 2640,
+                "waitingTime": 834,
+                "walkDistance": 168.0,
+                "walkLimitExceeded": false,
+                "elevationLost": 0.0,
+                "elevationGained": 0.0,
+                "transfers": 1,
+                "fare": {
+                    "fare": {
+                        "regular": {
+                            "currency": {
+                                "currency": "USD",
+                                "defaultFractionDigits": 2,
+                                "currencyCode": "USD",
+                                "symbol": "$"
+                            },
+                            "cents": -1
+                        }
+                    },
+                    "details": {
+                        "regular": [
+                            {
+                                "fareId": "1:1",
+                                "price": {
+                                    "currency": {
+                                        "currency": "USD",
+                                        "defaultFractionDigits": 2,
+                                        "currencyCode": "USD",
+                                        "symbol": "$"
+                                    },
+                                    "cents": 250
+                                },
+                                "routes": [
+                                    "1:LUCYGR"
+                                ]
+                            }
+                        ]
+                    }
+                },
+                "legs": [
+                    {
+                        "startTime": 1625177040000,
+                        "endTime": 1625179440000,
+                        "departureDelay": 0,
+                        "arrivalDelay": 0,
+                        "realTime": false,
+                        "distance": 41641.46812662848,
+                        "pathway": false,
+                        "mode": "RAIL",
+                        "transitLeg": true,
+                        "route": "Trenton Line",
+                        "agencyName": "SEPTA",
+                        "agencyUrl": "http://www.septa.org",
+                        "agencyTimeZoneOffset": 0,
+                        "routeColor": "45637A",
+                        "routeId": "2:TRE",
+                        "routeTextColor": "FFFFFF",
+                        "tripShortName": "724",
+                        "tripBlockId": "724",
+                        "headsign": "Center City Philadelphia",
+                        "agencyId": "2:SEPTA",
+                        "tripId": "2:TRE_724_V51_M",
+                        "serviceDate": "2021-07-01",
+                        "from": {
+                            "name": "Levittown-Tullytown",
+                            "stopId": "2:90702",
+                            "lon": -74.8169444,
+                            "lat": 40.1402778,
+                            "departure": 1625177040000,
+                            "zoneId": "5",
+                            "stopIndex": 1,
+                            "vertexType": "TRANSIT"
+                        },
+                        "to": {
+                            "name": "30th Street Station",
+                            "stopId": "2:90004",
+                            "lon": -75.1816667,
+                            "lat": 39.9566667,
+                            "arrival": 1625179440000,
+                            "departure": 1625179440000,
+                            "zoneId": "C",
+                            "stopIndex": 10,
+                            "vertexType": "TRANSIT"
+                        },
+                        "intermediateStops": [],
+                        "legGeometry": {
+                            "points": "q{~sFttsgMTX??~@fA\\`@f@l@bAjAbAjAh@n@p@x@z@`ArA|A\\`@hBtBJLrB`CDFFFhAtAZ\\pB`C@@b@h@j@n@b@f@@BpB~BTV|AhBBB\\b@PRz@`AZ^JL^d@b@f@v@z@r@z@pA|AXZ`AhAl@r@bBpBB@HLJJ`BnBJJ`BnBd@j@fAnAFH`BlBf@j@TXp@v@|@dAf@j@|AhBFHJL~@fAVXz@`Aj@n@JJbAdAXXn@n@l@j@JJp@l@TRLLXT`Az@j@b@XTXT`@ZHFPL??bAr@f@^VNVRt@h@PJVRjBpAn@d@~@p@|AfADBj@b@~@p@d@\\jAv@nA|@^XdAr@XRPNDBf@\\|@p@@?d@Z`@Zb@Zf@\\hAv@BBTNFDb@\\jAx@l@`@|AfAt@j@dAt@@?VPTPb@ZVPd@\\n@d@TPRNd@^`@\\RPPL`@^p@l@HHl@h@l@l@PPd@d@`@d@b@d@@@VXb@f@h@n@DFh@n@VZ\\d@LNb@l@n@|@LP~@vAPVr@jAd@x@@@Vb@NVNX^n@DHP\\FLTb@NZLVLV\\p@^z@DHXn@\\x@Xn@Xp@Xp@Vn@DJrA~CRf@d@dAZt@h@pA??h@lATj@@@Zv@\\x@Xr@N\\b@bAz@rBJTr@bB?@Tj@Vh@h@rAFNFNh@pATl@JX`@dABHRh@J\\Zx@Xx@@Df@xANf@BFRp@Nd@Pj@BHBHTr@DRZdAFVb@~ANn@^tAXpAj@`CLh@Ll@VjAJh@@HZ|ARbAJf@PdAN~@??ZjBN`AJn@R|AF^Fb@J~@PlABXTrBD\\NxANvA@NDf@Hv@BXFx@HdAFl@HnA?@NxBHhAVtD@NZbE?FJzAL`B?@F|@NpB@RX~D?BRjCDr@?DBZVfDHtANnBBd@NpBDj@Dh@Bb@NvBPbCF~@RlCFv@J~AJ|ABRNvBFp@?DZ|D?HZzDH`AB^HbA@PZtDDn@RfCXtD@PVbD@DJxAJxAVdDBZZ~D@FXxDH`ALhBBTZ~DDh@TvCL`BJxA?DV~CB^Fp@P~B@NL|A@FJxA@L??JrA?@Fv@Db@ZzDB\\L`BF|@XpD@JXzDFn@RhCNtBHdADh@Fp@JrAL~AFn@@RX`D@RNpAHv@?BHn@Jz@Lr@BVN~@Jj@BPJd@Jd@F^Jd@HXR|@Pv@J\\Pn@Pn@DLNf@Vv@Nb@@DN`@Xt@Tl@@@Rf@Rd@N^LVN\\Td@f@`AZn@LVJRT`@BFn@lAVd@@@Zl@t@tAz@`BXh@xAnCFJtAhCXh@|@bBBD|AtCR^hAvBz@|A`@t@z@`BTb@JP`@x@t@tAz@`BV`@JR|@dBFJR^f@|@Vf@f@`AHLJTd@x@JRnA`Cj@fAl@hABB`@t@\\n@\\n@hAxBT^NZ`@v@f@|@bAjBJTLRzArCT`@`AhBd@|@R^T`@P\\bAlBp@nAj@fAnA~BHNDH|AvCJRHLn@jAXh@HNFJHNFLHNHNJNFLHNFNHJHNFNJPHNFLJPJNFNDHDFHPHLHPJPHNJRFJHL?BJPHNHNHNHNHNHNHPJNTf@JRJP?@JRLTLTJVLT??LTJTLVJRJTLVDHBFJTLVJTLVFNBDHTLTHTLTHR?@HPJVLTJVDJBHPd@HPDJJT?@FNDHBHHPHR@BN^HTHPFN?B??@?FPBHDHHRHRRj@DJFP?@HRFPFPDLJVFPHRDJ@DHRFRHTFNFPHTHRFR@?JZHTHPFPHTHTFPHP@DDLHRFRHPFTHRHRHRDL@@@DHRHTFPFPHTHPHTHR?@HRHRFRHRHTFPFRHRDJBFHRHTNf@FNHRDLFRFL??FPFPHRFRHTDJDLFPHPFP??FNDNHTDJFNFPDLFPHPFP?@FLFRFNFPFNHRFPDNHRDJ@DHRFNFPFNFRTh@FRDJ@DHPFPFRHRFNHVFPHTDHBHFPFPHRHTFPHPFRHT@@FPHTHRHTHRFPHRHT@DDLHTFPHPHRFRHRPf@J\\HPFPFTHPFPHR?@JXN`@DLFPFPHPFPHRFRBHDHFRFPHPFRHRFRHP@FHRL\\JXt@tBPb@|@fCN^Tp@`@fA\\~@j@~A?@FNd@rAZx@Rh@l@bBFNf@tA^dAL\\l@bBHTDH`AnCVp@h@xA@DBFt@rBNb@bApCBHN^f@nAFP@BHRLZP^HRJVBDDJJPJRN\\LVLT@BHNLRLRR\\HLLVFHT\\TZRZPRBDNRVZZ^RVJJTXZXb@d@@Bx@v@HF^\\HHVTDD@@l@h@ZXHHd@`@x@r@DDVT\\Zj@d@RRHFB@d@b@PN??v@r@LLz@t@HH`@`@FDRRfAdABBn@r@PPX^^b@HHNR^h@\\d@t@jAFHx@xAJTj@dA\\t@Th@l@xAJZ^`APf@@Bb@nAVz@??Rl@h@fB@?X|@Nh@Tp@Ph@l@dB@Df@rARf@JXDHL\\NZDLLXP^@BJTTh@Xj@P`@@@N\\P\\Zn@PZHPR^JTFJBDJRj@fAFJNXp@tANVh@bAj@jADFVf@Vf@`@x@R`@r@rAPZh@fA`@v@JTtAjCFLvAnCDJbApB`@v@HNfAvBTd@d@z@b@x@`@z@x@~A^r@z@`BbAnBNZFJl@nANXTb@FJr@xAP`@\\t@l@rA@Bd@fAJVTl@L\\j@|AJTXz@L\\L^HVHTPj@Nf@DLBJDLPh@V|@Nh@DJ@DPn@BFHXNj@BFNj@\\jANf@Lb@J^L^Tz@r@dCFTFRl@rBHX^nAVx@Rn@h@fBDJZ|@\\dALZFR\\|@\\~@BDVn@\\v@P`@Vh@p@xADHbApBDFDLNVb@v@HPHLDJBDFNJNJRHPJRJNHPFL@BJPJPHNFNHNHN@@HPJR@@@BNZBB??FLJRHLJRBFLT@@HPJRHLBDHPPZJR@BNXBFj@dAr@pAHPrAbCBHpA~BP^x@zAj@dAP^LRvAnCBDr@pA\\r@PZR^l@fABHNTHPz@`B`@r@R^b@x@nA`CHPFJvAnCBBv@zAb@x@HLHNdArBDFx@~AXh@DHPXXj@Vf@T`@d@|@r@tAx@zA`@v@JPt@vAP\\DF`@v@??j@jADFFL^t@n@rAFLR`@LXFLJRLZP\\N\\j@rAr@~AXr@`A|BHR`AbCFPDJDHl@|APb@jAvC@D??rAfDDHlAzCHRn@~AXr@~@`CRd@@BdAjCJTlA|CBBx@rBRf@`AfCHPlA|C@@nA`D@Bt@jBN^HRTj@Nb@Zx@HT`@hAf@zA@?DPHVZ~@@BRp@BFFTZdARx@Pj@^xAFRRz@`@`BDPDPXrALh@Jh@BJ\\hBDP^tBDXP`ATvA@D@DVfBRrAX`BDVPhAHf@b@xCN`A\\xBRlAXhBT~ATvA@Dh@nDJp@PdABRJj@??BP??F\\BPDZNz@ZtBBNNdAH`@ZtBJh@Lz@\\zBRpADVNz@Lz@Lx@Lx@Jn@d@tCLz@@HN~@D\\ZlBN~@XnBFZF`@PhAV`BXhBPlA^~BN`A`@fCLx@L|@N|@N~@RrARrA@BXpBHb@DPNx@J^DVNp@J^@@J^HZPh@Pl@BDLb@DJVp@DJDHL\\P^P`@@@P^LVR^@BVd@R^JNLRLTZb@JNV^TXRVVZ@?\\`@X^VVDDFHt@x@@@HHLNHJt@x@FH~@dAHJZ\\\\`@DFDFHLPVLRDDFJHNJRJPBFHNDLRd@BHTn@J\\DNFTH\\DVBLJj@D^@FBJ@PBTBR@P@F?JBR@T?T@X?D@Z?t@AL?d@Cr@?HA`@C\\Cb@G~@AREd@GdAEd@A^OxBOpBEt@CXIfAIrAK|AOtB?BGz@ALOvBMdB?F?BAF??IpAQdCEp@U`D?JKrAALGx@S|C?JMhBG|@GbAOjBK~AInA?BALWjDCj@SpCInAMlBOtBIfA?DO`CKvA?@W|DARWnDC\\OxBC^W`EY`E?D[rEEj@IjAKxAGdAG|@IdAOdCEz@CXCf@AXE|@Cf@I~AGhB?LIlBClACb@E`BCbA?JAd@Az@A`@?NCxAAz@Av@?LA~@?RAtC?h@?`B?F@jB?H?t@@n@@H@ZBj@Bd@@R@LB^BXBXBTBR@JF^D\\DZDRDR?BDNF^H^H\\HZ@DFRJ`@@B@FHVV|@DPl@xBXhAPn@Pp@^rABFh@pBRv@j@tBHVLd@@Bf@jBPr@^rAZjAJ`@Nf@b@bBFTJZFV\\nAPn@Pn@DN\\rA^vAf@fBZlAj@pBV`ARr@h@rBXbAFTBJPn@J\\XhA@@d@dB^tAb@`BNf@FT^tAZlA\\jAFTPp@BHJ^Tx@@FLd@^rAPn@ZjA@Db@~A@DXbAFTV~@Pt@??d@bB`@vATz@Ld@DRBH@@@FBF?@@FHTFVLb@DRHXDL`@vA@FLd@`@zARp@@FLb@Rt@^vAHXV~@Nj@^pADP@DLf@J\\j@vBJ`@JZXbA@Bh@pBDLFN@FHTBHBDDL@BNb@FJHV`A`CHRhArCJT~@|BFRLV`AbCDLpAbDDJ\\x@p@bBLXL^x@lBVp@f@lAp@bBDJ`@`A`@`AZt@Vn@~@`CRf@`A~BDJZv@t@hBFNlAxCJVhApCP`@l@zALZb@fAf@jARh@FLJRTh@BDLVHPDF`@v@b@r@FJPZBFPXNXV`@PXVd@nAvBPXVd@LRLT^n@PXZh@v@tAp@hAXf@@@LTT`@LRFJT^?@Zf@r@lAp@jA\\h@R^FLl@`Ah@~@^p@pAxB\\j@j@bAR\\Xd@JPnAvBT`@^n@f@z@DDVb@DJh@|@BDDFd@z@@@t@vA^p@DHd@~@^l@DHVb@n@fA@@\\l@@@BFDFb@t@FJBDT^d@x@Vd@`@n@Tb@T^Zh@~@`BZd@FL@@t@pAd@x@Zh@JRl@bADFFLJPJNDFX`@@BFHv@jAv@lATZj@p@LNJJNPJHTTZTRNBBd@Vx@^l@XPJD@NHVJLF@?NDD@HBPBHBH@J?L@H?J?L?NAJALANCLEPEPGRIRIZKPKTKVONIRONKNMJIJKHIJKNQNSJQHOLSLWL]HWL_@La@FWFUH]Jg@Jg@F[BMFY?CBIBONo@H_@BQHYBSH_@FUF[DWFYJe@@IFUHc@P{@Ja@F[BO@CDUDQ@CFWJg@HUDOTw@Rm@Lk@@G@CDSV_B@GBOLe@H[FUJW?AFOJ[JUJ]HQBG@AVk@Tg@N[Rc@NUTa@V_@X[DEFILMNMHGFEXUHGFG\\ULK@APKd@]XQNGTI`@OFCh@O@?f@OLC\\Gj@Ef@CBAj@Ab@CxBE^AT?B?LAT?TA^ALANA\\E`@GB?`@GD?VE@?h@ID?TEXAV?`@AnAAF?J?XAV?ZAP?@?N?JAPAFALANENEPGPIFEB?HGNMFEBCFENONQTYFK@AFKFOJQL[FQHW@CDMBOBI?A??@E?C@C?C@E?ADSDYF{@?A@M@E?A@Q@M@K?C?E@C?E@Q???A@E?E@K?C?A@QJ_BHiABS?IBY?IBY@G",
+                            "length": 2014
+                        },
+                        "steps": [],
+                        "routeShortName": "Trenton Line",
+                        "routeLongName": "Trenton Line",
+                        "duration": 2400.0
+                    },
+                    {
+                        "startTime": 1625179440000,
+                        "endTime": 1625179566000,
+                        "departureDelay": 0,
+                        "arrivalDelay": 0,
+                        "realTime": false,
+                        "distance": 168.0,
+                        "pathway": false,
+                        "mode": "WALK",
+                        "transitLeg": false,
+                        "route": "",
+                        "agencyTimeZoneOffset": 0,
+                        "from": {
+                            "name": "30th Street Station",
+                            "stopId": "2:90004",
+                            "lon": -75.1816667,
+                            "lat": 39.9566667,
+                            "arrival": 1625179440000,
+                            "departure": 1625179440000,
+                            "zoneId": "C",
+                            "stopIndex": 10,
+                            "vertexType": "TRANSIT"
+                        },
+                        "to": {
+                            "name": "JFK Blvd & 30th St",
+                            "stopId": "1:28325",
+                            "lon": -75.183284,
+                            "lat": 39.955796,
+                            "arrival": 1625179566000,
+                            "departure": 1625180400000,
+                            "zoneId": "1",
+                            "stopIndex": 0,
+                            "vertexType": "TRANSIT"
+                        },
+                        "legGeometry": {
+                            "points": "",
+                            "length": 0
+                        },
+                        "steps": [],
+                        "duration": 126.0
+                    },
+                    {
+                        "startTime": 1625180400000,
+                        "endTime": 1625180640000,
+                        "departureDelay": 0,
+                        "arrivalDelay": 0,
+                        "realTime": false,
+                        "distance": 796.2469906426053,
+                        "pathway": false,
+                        "mode": "BUS",
+                        "transitLeg": true,
+                        "route": "Green Loop through University City",
+                        "agencyName": "SEPTA",
+                        "agencyUrl": "http://www.septa.org",
+                        "agencyTimeZoneOffset": 0,
+                        "routeId": "1:LUCYGR",
+                        "tripBlockId": "8506",
+                        "headsign": "Green Loop",
+                        "agencyId": "1:1",
+                        "tripId": "1:617791",
+                        "serviceDate": "2021-07-01",
+                        "from": {
+                            "name": "JFK Blvd & 30th St",
+                            "stopId": "1:28325",
+                            "lon": -75.183284,
+                            "lat": 39.955796,
+                            "arrival": 1625179566000,
+                            "departure": 1625180400000,
+                            "zoneId": "1",
+                            "stopIndex": 0,
+                            "vertexType": "TRANSIT"
+                        },
+                        "to": {
+                            "name": "Market St & 34th St",
+                            "stopId": "1:19026",
+                            "lon": -75.191314,
+                            "lat": 39.955901,
+                            "arrival": 1625180640000,
+                            "zoneId": "1",
+                            "stopIndex": 1,
+                            "vertexType": "TRANSIT"
+                        },
+                        "intermediateStops": [],
+                        "legGeometry": {
+                            "points": "wzzrF`f{iMBCBCFCDAD?F?D?z@J\\FXBFDRNB@AFEn@SlDEj@Er@ALAD?FEh@Ep@QrCEn@Ex@Eh@AZGz@C\\AXKxAMrBCZMdBOjCE`@IvAMhB",
+                            "length": 40
+                        },
+                        "steps": [],
+                        "routeShortName": "LUCYGR",
+                        "routeLongName": "Green Loop through University City",
+                        "duration": 240.0
+                    }
+                ],
+                "tooSloped": false
+            }
+        ]
+    },
+    "metadata": {
+        "searchWindowUsed": 4200,
+        "nextDateTime": 1625177400000,
+        "prevDateTime": 1625169000000
+    },
+    "debugOutput": {
+        "precalculationTime": 0,
+        "directStreetRouterTime": 0,
+        "transitRouterTime": 262,
+        "filteringTime": 0,
+        "renderingTime": 1,
+        "totalTime": 263,
+        "transitRouterTimes": {
+            "tripPatternFilterTime": 79,
+            "accessEgressTime": 0,
+            "raptorSearchTime": 170,
+            "itineraryCreationTime": 13
+        }
+    },
+    "elevationMetadata": {
+        "ellipsoidToGeoidDifference": -35.07384707876178,
+        "geoidElevation": false
+    }
+}
